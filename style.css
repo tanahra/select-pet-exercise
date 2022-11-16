@@ -14,6 +14,10 @@ body{
     color: brown;
     font-size: 28px;
 }
+p{
+    color: brown;
+    font-style: italic;
+}
 
 #btns-section{
     display: flex;
@@ -26,8 +30,16 @@ body{
     margin: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color:#FAFAD2;
-    color: brown; 
+    background-color:#FFDAB9;
+    color: brown;
+}
+
+#dog:hover{
+    opacity:1;
+    background-color: brown;
+    transition: opacity 400ms;
+    color: white;
+    font-style:oblique;
 }
 
 #cat{
@@ -35,17 +47,30 @@ body{
     margin: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color:#FAFAD2;
-    color: brown; 
+    background-color:#FFDAB9;
+    color: brown;
 }
-
+#cat:hover{
+    opacity:1;
+    background-color: brown;
+    transition: opacity 400ms;
+    color: white;
+    font-style:oblique;
+}
 #random-pet{
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color:#FAFAD2;
+    background-color:#FFDAB9;
     color: brown; 
+}
+#random-pet:hover{
+    opacity:1;
+    background-color: brown;
+    transition: opacity 400ms;
+    color: white;
+    font-style:oblique;
 }
 
 #img-container{
