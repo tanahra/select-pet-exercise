@@ -1,13 +1,20 @@
 body{
     background-color: #FFFFFF;
 }
-#title{
+.app{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
 
+#title{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
     color: brown;
+    font-size: 28px;
 }
+
 #btns-section{
     display: flex;
     justify-content: center;
@@ -19,25 +26,28 @@ body{
     margin: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #FFE4B5;
+    background-color:#FAFAD2;
     color: brown; 
 }
+
 #cat{
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #FFE4B5;
+    background-color:#FAFAD2;
     color: brown; 
 }
+
 #random-pet{
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #FFE4B5;
+    background-color:#FAFAD2;
     color: brown; 
 }
+
 #img-container{
     display: flex;
     justify-content: center;
@@ -45,6 +55,7 @@ body{
     border-radius: 5px;
 
 }
+
 #pet-img{
     border-radius: 5px;
     box-shadow: 3px 3px 12px rgb(192,192,192); 
