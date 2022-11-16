@@ -16,12 +16,12 @@
     "url": "https://github.com/tanahra/select-pet-exercise/issues"
   },
   "homepage": "https://github.com/tanahra/select-pet-exercise#readme",
-  "type": "module",
   "dependencies": {
     "vite": "^3.2.4"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
     "eslint-plugin-react": "^7.31.10"
-  }
+  },
+  "type": "module"
 }
